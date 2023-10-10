@@ -65,6 +65,7 @@ if lives > 0:
         print("incorrect")
         lives -= 1
         print(f"your lives are {lives}")
+if lives > 0: 
     print("which of these is classed as personal information")
     print("1. date of birth")
     print("2. nickname")
@@ -75,6 +76,10 @@ if lives > 0:
         print("you are incorrect")
         lives -= 1
         print(f"your lives are {lives}")
+if lives > 0:
+    print("well done you have completed the quiz")
+else:
+    print("you have ran out of lives, try again")
     
 
 
